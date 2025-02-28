@@ -1,7 +1,7 @@
 import cv2
 import csv
+import cvzone  # cvzone version: 1.5.1
 from cvzone.HandTrackingModule import HandDetector
-import cvzone
 import time
 
 cap = cv2.VideoCapture(0)
